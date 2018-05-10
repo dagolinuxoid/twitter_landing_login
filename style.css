@@ -1,0 +1,185 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.content {
+  display: block;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.utility {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.signupBlock {
+  width: 100%;
+  max-width: 350px;
+}
+
+.signupHeader {
+  display: flex;
+  margin: 16px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Icon-bird {
+  font-size: 42px;
+  color: #1da1f2;
+  display: inline-block;
+}
+
+.Icon {
+  font-size: 30px;
+  margin-right: 16px;
+  display: inline-block;
+  position: relative;
+  width: 35px;
+}
+
+.twitterIcon-bird {
+  position: absolute;
+  height: 150%;
+  right: -30%;
+  top: -30%;
+}
+
+.Icon i {
+  position: absolute;
+}
+
+.edge-btn {
+  display: inline-block;
+  padding: 12px;
+  border: 1px solid #1da1f2;
+  border-radius: 100px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  color: #1da1f2;
+  line-height: 16px;
+}
+
+.signupTitle {
+  font-size: 27px;
+  line-height: 32px;
+}
+
+.signupSubtitle {
+  margin: 48px 0 16px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.edge-btn-primary {
+  margin-bottom: 16px;
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+  color: #fff;
+}
+
+.edge-btn-secondary {
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  margin-bottom: 16px;
+}
+
+.log-btn {
+  display: block;
+  border-radius: 100px;
+  padding: 6px 16px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.communication {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #1da1f2;
+  overflow: hidden;
+  position: relative;
+}
+
+.communicationContent {
+  max-width: 440px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.communicationItem {
+  color: #fff;
+  margin: 48px auto;
+  line-height: 24px;
+  font-weight: bold;
+  display: flex;
+  font-size: 18px;
+}
+
+footer {
+  border-top: 1px solid #e6ecf0;
+  padding: 11px 0;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-item {
+  padding: 0 9px;
+  display: inline-block;
+  text-align: inherit;
+}
+
+.footer-item a {
+  color: #aab8c2;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0;
+}
