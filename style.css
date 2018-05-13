@@ -41,6 +41,19 @@ body {
   flex-grow: 1;
 }
 
+@media (min-width: 794px) {
+  .content {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+  }
+  .communication {
+    width: 50%;
+  }
+  .utility {
+    align-items: center;
+  }
+}
+
 .utility {
   display: flex;
   justify-content: center;
