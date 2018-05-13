@@ -6,6 +6,18 @@ html, body {
   height: 100%;
 }
 
+input {
+  display: inline-block;
+  margin: 0;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #e6ecf0;
+  border-radius: 3px;
+  line-height: 20px;
+  font-size: 14px; 
+  padding: 12px;
+}
+
 a {
   text-decoration: none;
 }
@@ -58,6 +70,7 @@ body {
   display: flex;
   justify-content: center;
   flex: 1;
+  position: relative;
 }
 
 .signupBlock {
@@ -145,6 +158,13 @@ body {
   margin-bottom: 16px;
 }
 
+.edge-btn-medium {
+  font-size: 14px;
+  height: 46px;
+  width: 70px;
+  font-family: Arial;
+}
+
 .edge-btn-secondary:hover {
   background-color: #eaf5fd;
 }
@@ -207,4 +227,43 @@ footer {
 
 .footer-item a:hover {
   text-decoration: underline;
+}
+
+.login {
+  position: absolute;
+  left: 0;
+  top: 32px;
+  width: 100%;
+  display: none;
+}
+
+@media (min-width: 1023px) and (min-height: 600px) {
+  .login {
+    display: block;
+  }
+  .signupHeader .edge-btn {
+    display: none;
+  }
+}
+
+.login__form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.login__input-block {
+  margin-right: 12px;
+  width: 210px;
+}
+
+.login__input-block input {
+  width: 100%;
+}
+
+.forgot__link {
+  color: #aab8c2;
 }
