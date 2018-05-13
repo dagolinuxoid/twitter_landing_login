@@ -1,5 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -9,10 +27,6 @@ body {
   position: relative;
   margin: 0;
   overflow-y: scroll;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .container {
@@ -29,9 +43,7 @@ body {
 
 .utility {
   display: flex;
-  align-items: center;
   justify-content: center;
-  position: relative;
   flex: 1;
 }
 
@@ -43,7 +55,6 @@ body {
 .signupHeader {
   display: flex;
   margin: 16px auto;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -84,6 +95,10 @@ body {
   line-height: 16px;
 }
 
+.edge-btn:hover {
+  background-color: #eaf5fd;
+}
+
 .signupTitle {
   font-size: 27px;
   line-height: 32px;
@@ -102,11 +117,20 @@ body {
   color: #fff;
 }
 
+.edge-btn-primary:hover {
+  background-color: #006dbf;
+  border-color: #006dbf;
+}
+
 .edge-btn-secondary {
   background-color: #fff;
   border: 1px solid #1da1f2;
   color: #1da1f2;
   margin-bottom: 16px;
+}
+
+.edge-btn-secondary:hover {
+  background-color: #eaf5fd;
 }
 
 .log-btn {
@@ -116,10 +140,6 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 14px;
-}
-
-a {
-  text-decoration: none;
 }
 
 .communication {
@@ -158,12 +178,6 @@ footer {
   flex-wrap: wrap;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .footer-item {
   padding: 0 9px;
   display: inline-block;
@@ -173,13 +187,8 @@ ul {
 .footer-item a {
   color: #aab8c2;
   font-size: 12px;
-  text-decoration: none;
 }
 
 .footer-item a:hover {
   text-decoration: underline;
-}
-
-h1 {
-  margin: 0;
 }
